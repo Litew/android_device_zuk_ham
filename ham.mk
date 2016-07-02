@@ -225,6 +225,7 @@ PRODUCT_PROPERTY_OVERRIDES +=
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     camera2.portability.force_api=1
+    persist.camera.shutter.disable=1
 
 # System properties
 PRODUCT_PROPERTY_OVERRIDES += \
