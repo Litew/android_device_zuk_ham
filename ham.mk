@@ -237,6 +237,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.camera.shutter.disable=1 \
     camera2.portability.force_api=1
 
 # System properties
