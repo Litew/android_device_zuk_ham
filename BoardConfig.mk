@@ -20,6 +20,8 @@ DEVICE_PATH := device/zuk/ham
 # TODO: shouldn't be here
 BOARD_VENDOR := zuk
 
+TARGET_OTA_ASSERT_DEVICE := Z1
+
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 
